@@ -4,7 +4,7 @@
 
 - **Routing:** The Next.js app uses the App Router to navigate between four different chart types: Candlestick, Pie, Line, and Bar.
   - `/` - Candlestick Chart
-  - `/pie` - Pie Chart
+  - `/pie` - Pie Chart - (use donut to visualise pie chart data)
   - `/bar` - Bar Chart
   - `/line` - Line Chart
 
@@ -30,6 +30,13 @@
 - **Running the Application:**
   - To run unit tests: `python3 manage.py test --verbosity=2`
   - To start the Django server: `python3 manage.py runserver 5002`
+
+- Base path : http://localhost:5002/api/v1/
+- **REST API END POINTS: (Accepts only GET Requests)**
+    - candlestick-chart-data - for candle stick chart data
+    - line-chart-data - for line chart data
+    - pie-chart-data - for pie chart data
+    - bar-chart-data - for bar chart data
 
 ### Ports
 
